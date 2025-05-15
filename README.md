@@ -1,16 +1,64 @@
-<<<<<<< HEAD
-# React + Vite
+# ⚡ React Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based quiz application that allows users to input their name, take a quiz, and view their score at the end. Built using **React**, **React Router DOM**, and styled with basic CSS.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 Features
 
-## Expanding the ESLint configuration
+- Form-based name entry
+- Dynamic multiple-choice questions
+- Real-time scoring
+- Result display with user name
+- React Router-based page navigation
+- Handles invalid routes (wildcard `*`)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Quiz-App-React
->>>>>>> 9f1547ab82f346dd6a4535813d799d8a7cb63c7a
+---
+
+## 📁 Project Structure
+
+<pre>
+  ```
+  quiz-app-react/
+├── public/
+├── src/
+│ ├── assets/
+│ ├── pages/
+│ │ ├── Home.jsx
+│ │ ├── Quiz.jsx
+│ │ └── Result.jsx
+│ ├── App.jsx
+│ ├── App.css
+│ ├── index.css
+│ └── main.jsx
+├── .gitignore
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+  ```
+</pre>
+
+
+---
+
+## 🛠️ Installation Steps
+
+1. **Clone the Repository**
+
+   git clone https://github.com/your-username/react-quiz-app.git
+   cd react-quiz-app
+
+2.Install Dependencies
+
+npm install
+
+3.Run the App
+
+npm run dev
+
+4.Open in Browser
+Navigate to http://localhost:5173
+
+GitRepo : [https://github.com/Vishwanathangit/Quiz-App-React.git]
+LiveDemo : [https://quiz-app-react-two-gray.vercel.app/]
